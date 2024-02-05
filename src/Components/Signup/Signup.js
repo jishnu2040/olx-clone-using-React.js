@@ -24,6 +24,8 @@ export default function Signup() {
         history.push("/login")
       })
     })
+   }).catch((error) =>{
+    alert(error)
    })
   }
   return (
